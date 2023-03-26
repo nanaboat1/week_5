@@ -26,6 +26,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [X] List anything else that you added to improve the site's functionality!
+* [X] Utilized test driven framework to consider edge cases.
  
 
 ## Video Walkthrough
