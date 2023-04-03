@@ -7,7 +7,7 @@ import bg from './images/bg.jpg'
 import spring from './images/spring.jpg'
 
 
-
+const temp = {}
 function App() {
   const [cityName, setCityName] = useState("Paris");
   const [inputText, setInputText] = useState("");
@@ -18,16 +18,16 @@ function App() {
 
   const back = [ rainy, clear, bg, spring ]; 
 
-
-
   // utilizing use effect.
   useEffect(() => {
+    
     fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=189271b827844bff7388350c44848615&units=metric`
     )
       .then((res) => {
         if (res.status === 200) {
           error && setError(false);
+    
           return res.json();
         } else {
           throw new Error("City not found");
@@ -48,6 +48,7 @@ function App() {
     if (e.key === "Enter") {
       setCityName(e.target.value);
       setInputText("");
+
     } 
 
   };
@@ -71,10 +72,10 @@ function App() {
     console.log( data.main.temp )
     console.log( data.wind.speed)
 
-  };
+  }; 
 
   
-  
+
   return (
     <div className="bg_img" style={{
 
@@ -129,4 +130,6 @@ function App() {
   );
 }
 
-export default App;
+export const exportData = temp;
+
+export default App ;
