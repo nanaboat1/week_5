@@ -1,42 +1,38 @@
-# Web Development Project 5 - *weather search*
+# Web Development Project 6 - * City Weather Detailer*
 
 Submitted by: **Nana Boateng Amoah**
 
-This web app: **Provides a list of weather stats like humidty, wind and temperature from a location**
+This web app: **Shows a list of weather details for a city.**
 
-Time spent: **10** hours spent in total
+Time spent: **8** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [X] **The list displays a list of data fetched using an API call**
-- [X] **Data uses the useEffect React hook and async/await syntax**
-- [X] **The app dashboard includes at least three summary statistics about the data such as**
-  - [X] *Humidity, Wind, and current Temperature*
-- [X] **A search bar allows the user to search for an item in the fetched data**
-- [] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [X] **The app includes at least two unique chart developed using the fetched data that tell an interesting story**
+- [X] **Clicking on an item in the list view displays more details about it**
+- [X] **Clicking on an item has a direct, unique link to that item's detail view page**
+
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
+- [ ] The site's customized dashboard contains more content that explains what is interesting about the data
+- [ ] The site allows users to toggle between different data visualizations
 
 The following **additional** features are implemented:
+- [X] I used weather data.
 
-* [X] List anything else that you added to improve the site's functionality!
-* [X] Utilized test driven framework to consider edge cases.
- 
+* [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='/src/week_5.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/src/week_6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+Kap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows

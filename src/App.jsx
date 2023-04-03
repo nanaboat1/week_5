@@ -9,7 +9,7 @@ import spring from './images/spring.jpg'
 
 const temp = {}
 function App() {
-  const [cityName, setCityName] = useState("Paris");
+  const [cityName, setCityName] = useState("London");
   const [inputText, setInputText] = useState("");
   const [data, setData] = useState({});
   const [error, setError] = useState(false);
