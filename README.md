@@ -41,6 +41,7 @@ Kap
 ## Notes
 
 Describe any challenges encountered while building the app.
+It was very hard trying to generate the list view with charts as I did not know of any libraries that could parse data to draw those conclusions, so I tried making a makeshift one.
 
 ## License
 
