@@ -1,10 +1,10 @@
-# Web Development Project 6 - * City Weather Detailer*
+# Web Development Project 6 - *Product Review and Viz*
 
 Submitted by: **Nana Boateng Amoah**
 
-This web app: **Shows a list of weather details for a city.**
+This web app: **Give Details about Current products in a store.**
 
-Time spent: **8** hours spent in total
+Time spent: **12** hours spent in total
 
 ## Required Features
 
@@ -17,22 +17,23 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] The site's customized dashboard contains more content that explains what is interesting about the data
+- [X] The site's customized dashboard contains more content that explains what is interesting about the data
 - [ ] The site allows users to toggle between different data visualizations
 
 The following **additional** features are implemented:
-- [X] I used weather data.
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [X] List anything else that you added to improve the site's functionality!
+  [X] I used material UI for my Ui part. 
+  [X] I added Abort Controller to stop fetching APi stuffs when done.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='/src/week_6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/src/week_6b.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-Kap
+GIF created with ...  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -41,7 +42,6 @@ Kap
 ## Notes
 
 Describe any challenges encountered while building the app.
-It was very hard trying to generate the list view with charts as I did not know of any libraries that could parse data to draw those conclusions, so I tried making a makeshift one.
 
 ## License
 
